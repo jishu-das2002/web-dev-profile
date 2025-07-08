@@ -24,6 +24,34 @@
     font-size: 20px;
 }
 
+main{
+    max-width: 1140px;
+    margin: 130px auto 0;
+}
+/* common section title */
+
+.section-titel{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+/* common main head */
+
+.main-head{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.main-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+
+
+/* navigation section */
 .nav-section{
     display: flex;
     justify-content: space-between;
@@ -97,4 +125,32 @@ nav ul li a{
 
 .banner-img{
     width: 580px;
+}
+
+/* main section */
+
+.about{
+    text-align: center;
+    padding: 115px 156px 147px 156px;
+    border-radius: 10px;
+    background-color: rgba(248, 224, 178, 0.781);
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.item-titel{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.item-description{
+    font-size: 20px;
+    color: #474747;
+    font-weight: bold;
+    padding: 0;
 }
