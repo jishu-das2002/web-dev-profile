@@ -235,6 +235,7 @@ nav ul li a{
 .education-subtitle{
     font-size: 20px;
     font-weight: 600;
+    color: #757575;
 }
 
 .education-description{
@@ -265,4 +266,39 @@ nav ul li a{
 .resume-btn{
     text-align: center;
     margin-top: 50px;
+}
+
+/*footer section styel*/
+
+.footer-section{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+
+.footer-title{
+    font-size:25px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.footer-description{
+    font-size: 16px;
+    font-weight: normal;
+    color: #757575;
+    max-width: 562px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
 }
